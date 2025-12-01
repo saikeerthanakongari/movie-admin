@@ -1,16 +1,52 @@
-# React + Vite
+# 🎬 Week 3 – Admin Dashboard (Movie Booking System)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive **Admin Dashboard** built using **React + Vite + Tailwind CSS**.  
+It includes **Dashboard Cards, Calendar,Movies, Kanban Board, ** as required for the Week-3 assignment.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features Implemented
 
-## React Compiler
+### ✅ **Dashboard**
+- Summary cards (Users, Tickets, Revenue)
+- Recent bookings placeholder section
+- Overview mini-chart using Chart.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✅ **Calendar (react-big-calendar)**
+- Date-Fns localizer
+- Sample events
+- Fully responsive monthly calendar
 
-## Expanding the ESLint configuration
+### ✅ **Kanban Board (react-beautiful-dnd)**
+- Drag & Drop support
+- Three columns (To Do, In Progress, Done)
+- State updates while dragging
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ **Movies Table (CRUD + Filters)**
+- Add movie  
+- Edit movie  
+- Delete movie  
+- Simple pagination  
+- Inline editing
+
+### ✅ **Responsive Sidebar + Topbar**
+
+---
+
+## 🛠️ Tech Stack
+
+- **React + Vite**
+- **Tailwind CSS**
+- **React Router DOM**
+- **Context API**
+- **react-big-calendar**
+- **react-beautiful-dnd**
+- **react-chartjs-2 & chart.js**
+
+---
+
+## 📦 Installation & Setup
+
+### 1️⃣ Install dependencies
+```bash
+npm install
